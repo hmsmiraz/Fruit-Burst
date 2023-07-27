@@ -49,22 +49,12 @@
             <a class="btn btn-ghost normal-case text-xl">Fruit Burst</a>
           </div>
           <div class="navbar-end">
-            <button class="btn btn-ghost btn-circle">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"
-                />
-              </svg>
-            </button>
+            <div class="form-control relative">
+              <input type="text" placeholder="Search Here" class="text-base font-normal pl-2 rounded-3xl w-28 h-10 md:w-auto" />
+            </div>
+            <div class="absolute text-[#121212] mr-2">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
           </div>
         </div>
       </div>
@@ -108,8 +98,8 @@
       <!-- Banner Section -->
       <section>
         <div class="carousel w-full rounded-2xl mt-5 lg:mt-0">
-          <!-- 1st Image -->
-          <div id="slide1" class="carousel-item relative w-full">
+          <!-- 1st Slide -->
+          <div id="slide1" class="carousel-item relative w-full lg:h-[580px]">
             <div
               class="hero bg-gradient-to-r from-[#121212] to-[#121212] lg:h-[500px]"
               style="background-image: url(images/banner4.png)"
@@ -133,8 +123,31 @@
               <a href="#slide4" class="btn btn-circle">❮</a>
               <a href="#slide2" class="btn btn-circle">❯</a>
             </div>
+            <div class="invisible lg:visible flex gap-24 items-center justify-center text-center px-5 w-[1000px] h-[160px] bg-white rounded-xl absolute ml-32 mt-96">
+              <div>
+                <img src="images/fruit1.png" alt="">
+                <p class="text-xl font-normal text-[#121212]">Grape</p>
+              </div>
+              <div>
+                <img src="images/fruit2.png" alt="">
+                <p class="text-xl font-normal text-[#121212]">Orange</p>
+              </div>
+              <div>
+                <img src="images/fruit3.png" alt="">
+                <p class="text-xl font-normal text-[#121212]">Mango</p>
+              </div>
+              <div>
+                <img src="images/fruit4.png" alt="">
+                <p class="text-xl font-normal text-[#121212]">Strawberry</p>
+              </div>
+              <div>
+                <img src="images/fruit5.png" alt="">
+                <p class="text-xl font-normal text-[#121212]">Pomegranate</p>
+              </div>
+            </div>
           </div>
-          <div id="slide2" class="carousel-item relative w-full">
+          <!-- 2nd slide -->
+          <div id="slide2" class="lg:h-[580px] carousel-item relative w-full">
             <div
               class="hero bg-gradient-to-r from-[#121212] to-[#121212] lg:h-[500px]"
               style="background-image: url(images/banner2.png)"
@@ -158,8 +171,31 @@
               <a href="#slide1" class="btn btn-circle">❮</a>
               <a href="#slide3" class="btn btn-circle">❯</a>
             </div>
+            <div class="invisible lg:visible flex gap-24 items-center justify-center text-center px-5 w-[1000px] h-[160px] bg-white rounded-xl absolute ml-32 mt-96">
+              <div>
+                <img src="images/fruit1.png" alt="">
+                <p class="text-xl font-normal text-[#121212]">Grape</p>
+              </div>
+              <div>
+                <img src="images/fruit2.png" alt="">
+                <p class="text-xl font-normal text-[#121212]">Orange</p>
+              </div>
+              <div>
+                <img src="images/fruit3.png" alt="">
+                <p class="text-xl font-normal text-[#121212]">Mango</p>
+              </div>
+              <div>
+                <img src="images/fruit4.png" alt="">
+                <p class="text-xl font-normal text-[#121212]">Strawberry</p>
+              </div>
+              <div>
+                <img src="images/fruit5.png" alt="">
+                <p class="text-xl font-normal text-[#121212]">Pomegranate</p>
+              </div>
+            </div>
           </div>
-          <div id="slide3" class="carousel-item relative w-full">
+          <!-- 3rd slide -->
+          <div id="slide3" class="lg:h-[580px] carousel-item relative w-full">
             <div
               class="hero bg-gradient-to-r from-[#121212] to-[#121212] lg:h-[500px]"
               style="background-image: url(images/banner3.png)"
@@ -183,8 +219,31 @@
               <a href="#slide2" class="btn btn-circle">❮</a>
               <a href="#slide4" class="btn btn-circle">❯</a>
             </div>
+            <div class="invisible lg:visible flex gap-24 items-center justify-center text-center px-5 w-[1000px] h-[160px] bg-white rounded-xl absolute ml-32 mt-96">
+              <div>
+                <img src="images/fruit1.png" alt="">
+                <p class="text-xl font-normal text-[#121212]">Grape</p>
+              </div>
+              <div>
+                <img src="images/fruit2.png" alt="">
+                <p class="text-xl font-normal text-[#121212]">Orange</p>
+              </div>
+              <div>
+                <img src="images/fruit3.png" alt="">
+                <p class="text-xl font-normal text-[#121212]">Mango</p>
+              </div>
+              <div>
+                <img src="images/fruit4.png" alt="">
+                <p class="text-xl font-normal text-[#121212]">Strawberry</p>
+              </div>
+              <div>
+                <img src="images/fruit5.png" alt="">
+                <p class="text-xl font-normal text-[#121212]">Pomegranate</p>
+              </div>
+            </div>
           </div>
-          <div id="slide4" class="carousel-item relative w-full">
+          <!-- 4th slide -->
+          <div id="slide4" class="lg:h-[580px] carousel-item relative w-full">
             <div
               class="hero bg-gradient-to-r from-[#121212] to-[#121212] lg:h-[500px]"
               style="background-image: url(images/banner1.png)"
@@ -208,6 +267,28 @@
               <a href="#slide3" class="btn btn-circle">❮</a>
               <a href="#slide1" class="btn btn-circle">❯</a>
             </div>
+            <div class="invisible lg:visible flex gap-24 items-center justify-center text-center px-5 w-[1000px] h-[160px] bg-white rounded-xl absolute ml-32 mt-96">
+              <div>
+                <img src="images/fruit1.png" alt="">
+                <p class="text-xl font-normal text-[#121212]">Grape</p>
+              </div>
+              <div>
+                <img src="images/fruit2.png" alt="">
+                <p class="text-xl font-normal text-[#121212]">Orange</p>
+              </div>
+              <div>
+                <img src="images/fruit3.png" alt="">
+                <p class="text-xl font-normal text-[#121212]">Mango</p>
+              </div>
+              <div>
+                <img src="images/fruit4.png" alt="">
+                <p class="text-xl font-normal text-[#121212]">Strawberry</p>
+              </div>
+              <div>
+                <img src="images/fruit5.png" alt="">
+                <p class="text-xl font-normal text-[#121212]">Pomegranate</p>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -226,12 +307,17 @@
           </div>
           <!-- countdown -->
           <div class="">
-            <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+            <div class="grid grid-flow-col gap-1 lg:gap-5 text-center auto-cols-max">
               <div class="flex flex-col">
                 <span class="countdown font-mono text-5xl">
                   <span style="--value: 15"></span>
                 </span>
                 days
+              </div>
+              <div class="flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M12 6.75C11.8011 6.75 11.6103 6.67098 11.4697 6.53033C11.329 6.38968 11.25 6.19891 11.25 6C11.25 5.80109 11.329 5.61032 11.4697 5.46967C11.6103 5.32902 11.8011 5.25 12 5.25C12.1989 5.25 12.3897 5.32902 12.5303 5.46967C12.671 5.61032 12.75 5.80109 12.75 6C12.75 6.19891 12.671 6.38968 12.5303 6.53033C12.3897 6.67098 12.1989 6.75 12 6.75ZM12 12.75C11.8011 12.75 11.6103 12.671 11.4697 12.5303C11.329 12.3897 11.25 12.1989 11.25 12C11.25 11.8011 11.329 11.6103 11.4697 11.4697C11.6103 11.329 11.8011 11.25 12 11.25C12.1989 11.25 12.3897 11.329 12.5303 11.4697C12.671 11.6103 12.75 11.8011 12.75 12C12.75 12.1989 12.671 12.3897 12.5303 12.5303C12.3897 12.671 12.1989 12.75 12 12.75ZM12 18.75C11.8011 18.75 11.6103 18.671 11.4697 18.5303C11.329 18.3897 11.25 18.1989 11.25 18C11.25 17.8011 11.329 17.6103 11.4697 17.4697C11.6103 17.329 11.8011 17.25 12 17.25C12.1989 17.25 12.3897 17.329 12.5303 17.4697C12.671 17.6103 12.75 17.8011 12.75 18C12.75 18.1989 12.671 18.3897 12.5303 18.5303C12.3897 18.671 12.1989 18.75 12 18.75Z" stroke="#121212" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
               </div>
               <div class="flex flex-col">
                 <span class="countdown font-mono text-5xl">
@@ -239,11 +325,21 @@
                 </span>
                 hours
               </div>
+              <div class="flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M12 6.75C11.8011 6.75 11.6103 6.67098 11.4697 6.53033C11.329 6.38968 11.25 6.19891 11.25 6C11.25 5.80109 11.329 5.61032 11.4697 5.46967C11.6103 5.32902 11.8011 5.25 12 5.25C12.1989 5.25 12.3897 5.32902 12.5303 5.46967C12.671 5.61032 12.75 5.80109 12.75 6C12.75 6.19891 12.671 6.38968 12.5303 6.53033C12.3897 6.67098 12.1989 6.75 12 6.75ZM12 12.75C11.8011 12.75 11.6103 12.671 11.4697 12.5303C11.329 12.3897 11.25 12.1989 11.25 12C11.25 11.8011 11.329 11.6103 11.4697 11.4697C11.6103 11.329 11.8011 11.25 12 11.25C12.1989 11.25 12.3897 11.329 12.5303 11.4697C12.671 11.6103 12.75 11.8011 12.75 12C12.75 12.1989 12.671 12.3897 12.5303 12.5303C12.3897 12.671 12.1989 12.75 12 12.75ZM12 18.75C11.8011 18.75 11.6103 18.671 11.4697 18.5303C11.329 18.3897 11.25 18.1989 11.25 18C11.25 17.8011 11.329 17.6103 11.4697 17.4697C11.6103 17.329 11.8011 17.25 12 17.25C12.1989 17.25 12.3897 17.329 12.5303 17.4697C12.671 17.6103 12.75 17.8011 12.75 18C12.75 18.1989 12.671 18.3897 12.5303 18.5303C12.3897 18.671 12.1989 18.75 12 18.75Z" stroke="#121212" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+              </div>
               <div class="flex flex-col">
                 <span class="countdown font-mono text-5xl">
                   <span style="--value: 24"></span>
                 </span>
                 min
+              </div>
+              <div class="flex items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                  <path d="M12 6.75C11.8011 6.75 11.6103 6.67098 11.4697 6.53033C11.329 6.38968 11.25 6.19891 11.25 6C11.25 5.80109 11.329 5.61032 11.4697 5.46967C11.6103 5.32902 11.8011 5.25 12 5.25C12.1989 5.25 12.3897 5.32902 12.5303 5.46967C12.671 5.61032 12.75 5.80109 12.75 6C12.75 6.19891 12.671 6.38968 12.5303 6.53033C12.3897 6.67098 12.1989 6.75 12 6.75ZM12 12.75C11.8011 12.75 11.6103 12.671 11.4697 12.5303C11.329 12.3897 11.25 12.1989 11.25 12C11.25 11.8011 11.329 11.6103 11.4697 11.4697C11.6103 11.329 11.8011 11.25 12 11.25C12.1989 11.25 12.3897 11.329 12.5303 11.4697C12.671 11.6103 12.75 11.8011 12.75 12C12.75 12.1989 12.671 12.3897 12.5303 12.5303C12.3897 12.671 12.1989 12.75 12 12.75ZM12 18.75C11.8011 18.75 11.6103 18.671 11.4697 18.5303C11.329 18.3897 11.25 18.1989 11.25 18C11.25 17.8011 11.329 17.6103 11.4697 17.4697C11.6103 17.329 11.8011 17.25 12 17.25C12.1989 17.25 12.3897 17.329 12.5303 17.4697C12.671 17.6103 12.75 17.8011 12.75 18C12.75 18.1989 12.671 18.3897 12.5303 18.5303C12.3897 18.671 12.1989 18.75 12 18.75Z" stroke="#121212" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
               </div>
               <div class="flex flex-col">
                 <span class="countdown font-mono text-5xl">
@@ -1118,7 +1214,7 @@
       </section>
     </main>
 
-    <footer class="footer footer-center p-10 bg-black text-base-content rounded">
+    <footer class="mt-28 footer footer-center p-10 bg-black text-base-content rounded">
       <div class="grid grid-flow-col gap-4">
         <img src="images/logo.png" alt="" width="40px" height="40px">
         <h2 class="text-2xl font-bold text-white">Fruit Burst</h2>
